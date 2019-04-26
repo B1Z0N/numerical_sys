@@ -19,7 +19,7 @@ int main()
 
   getdata(&sys1, &sys2, num);
 
-  if((double)sys2 == sys1) return (0);//If systems is equal
+  if((double)sys2 == sys1) return (0);//If systems are equal
 
   dec_num = todec(sys1, num);
   printf("Your number in (10)-system:%lf\n", dec_num);
